@@ -86,6 +86,11 @@
     margin:0 0 20px;
   }
   .eyebrow-badge .dot{ width:6px; height:6px; border-radius:50%; background:var(--blue); flex-shrink:0; }
+  .badge-text-short{ display:none; }
+  @media (max-width:480px){
+    .badge-text-full{ display:none; }
+    .badge-text-short{ display:inline; }
+  }
   .grad-text{
     background:linear-gradient(90deg, var(--magenta), var(--violet), var(--blue));
     -webkit-background-clip:text; background-clip:text; color:transparent;
@@ -365,7 +370,7 @@
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="eyebrow-badge reveal" style="animation-delay:0.05s"><span class="dot"></span>Pasto, Nariño, Colombia — remoto para LATAM</p>
+        <p class="eyebrow-badge reveal" style="animation-delay:0.05s"><span class="dot"></span><span class="badge-text-full">Pasto, Nariño, Colombia — disponible para reubicación · presencial, híbrido o remoto</span><span class="badge-text-short">Pasto, Colombia — presencial, híbrido o remoto</span></p>
         <h1 class="reveal" style="animation-delay:0.15s">Leandro Benito<br>Herrera</h1>
         <p class="role reveal" style="animation-delay:0.25s">Director de Marketing · Estrategia Comercial y Growth</p>
         <p class="pitch reveal" style="animation-delay:0.35s">Bienvenido. En este espacio recopilo referencias de mi experiencia liderando equipos y gestionando estrategias para el <span class="grad-text">alcance de los objetivos de negocio</span> establecidos.</p>
@@ -375,7 +380,7 @@
           <a href="https://www.linkedin.com/in/leandrobh" target="_blank" rel="noopener">linkedin.com/in/leandrobh</a>
           <a href="tel:+573143677251">+57 314 367 7251</a>
         </div>
-        <a class="hero-cta reveal" href="mailto:leandrobenitoherrera@gmail.com" style="animation-delay:0.5s">Quiero conversar</a>
+        <a class="hero-cta reveal" href="https://wa.me/573143677251?text=Hola%20Leandro%2C%20vi%20tu%20portafolio%20y%20quiero%20conversar%20contigo." target="_blank" rel="noopener noreferrer" aria-label="Escribir a Leandro por WhatsApp" style="animation-delay:0.5s">Quiero conversar</a>
         <a class="hero-cta-outline reveal" href="/Leandro-Benito-Herrera-Director-Marketing-2026.pdf" download aria-label="Descargar hoja de vida de Leandro Benito Herrera en PDF" style="animation-delay:0.55s">Descargar hoja de vida (PDF)</a>
       </div>
       <div class="portrait-frame reveal" style="animation-delay:0.2s">
@@ -403,30 +408,6 @@
         <p>Máster en E-Commerce &amp; Marketing Digital. Experiencia gestionando equipos y proveedores multi-región.</p>
         <p>He administrado presupuestos de medios entre $80M y $1.100M COP mensuales en las operaciones que he dirigido, y liderado equipos de hasta 20 personas en temporada alta.</p>
       </div>
-    </div>
-  </section>
-
-  <section id="como-trabajo">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Cómo trabajo</h2>
-        <p>Tres frentes con los que suelo entrar a un negocio que necesita dirección de marketing.</p>
-      </div>
-      <div class="spec-grid" style="border-bottom:none; padding-bottom:0;">
-        <div class="spec-item">
-          <h4>Diagnóstico y estrategia</h4>
-          <p>Revisión del estado actual del negocio, la competencia y los canales, para definir a dónde se dirige la inversión de marketing y con qué objetivos medibles.</p>
-        </div>
-        <div class="spec-item">
-          <h4>Plan de lanzamiento y medios</h4>
-          <p>Estrategia de comunicación, pauta y performance para lanzar un producto, una marca o un canal nuevo, con métricas y seguimiento.</p>
-        </div>
-        <div class="spec-item">
-          <h4>Prospección y crecimiento B2B</h4>
-          <p>Construcción del canal digital de contacto con clientes de negocio: segmentación de la base, contenido dirigido y calificación de oportunidades para el equipo comercial.</p>
-        </div>
-      </div>
-      <p style="font-size:15.5px; color:var(--ink-soft); max-width:68ch; margin:28px 0 0;">Trabajo con empresas que necesitan dirección de marketing sin montar un área completa. Remoto para LATAM y España. <a href="#contacto" style="color:var(--blue);">Conversemos</a>.</p>
     </div>
   </section>
 
@@ -498,7 +479,7 @@
         </div>
         <div class="spec-item">
           <h4>Alcance &amp; canales</h4>
-          <p>Remoto para LATAM y España. Dos frentes de trabajo actuales: <strong>Be Together</strong> (Canadá y Colombia) — plan de marketing para el lanzamiento de un marketplace de e-commerce, con estrategia de comunicación, pauta y performance; y <strong>VeyVe</strong> (España) — estrategia de prospección y conversión B2B para una startup del sector cultural, con identificación de instituciones aliadas, contenido segmentado y calificación de oportunidades.</p>
+          <p>Proyectos en Colombia, LATAM y España, en modalidad remota y con desplazamiento cuando el proyecto lo requiere. Dos frentes de trabajo actuales: <strong>Be Together</strong> (Canadá y Colombia) — plan de marketing para el lanzamiento de un marketplace de e-commerce, con estrategia de comunicación, pauta y performance; y <strong>VeyVe</strong> (España) — estrategia de prospección y conversión B2B para una startup del sector cultural, con identificación de instituciones aliadas, contenido segmentado y calificación de oportunidades.</p>
         </div>
       </div>
 
@@ -855,9 +836,9 @@
   <section class="contact-band" id="contacto">
     <div class="wrap">
       <h2 class="serif">Conversemos sobre mi próximo reto de marketing</h2>
-      <p>Disponible para roles de dirección de marketing y crecimiento en retail, consumo masivo o servicios, en Colombia o remoto para LATAM. Soportes y referencias a disposición.</p>
+      <p>Disponible para roles de dirección de marketing y crecimiento en retail, consumo masivo o servicios. Modalidad presencial, híbrida o remota, con disponibilidad para desplazamiento y reubicación en Colombia, y remoto para LATAM y España. Soportes y referencias a disposición.</p>
       <div class="contact-actions">
-        <a class="btn btn-primary" href="https://wa.me/573143677251" target="_blank" rel="noopener">Contactar a Leandro</a>
+        <a class="btn btn-primary" href="https://wa.me/573143677251?text=Hola%20Leandro%2C%20vi%20tu%20portafolio%20y%20quiero%20conversar%20contigo." target="_blank" rel="noopener noreferrer" aria-label="Escribir a Leandro por WhatsApp">Contactar a Leandro</a>
         <a class="btn btn-ghost" href="mailto:leandrobenitoherrera@gmail.com">Escribir un correo</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/leandrobh" target="_blank" rel="noopener">Ver perfil de LinkedIn</a>
         <a class="btn btn-ghost" href="/Leandro-Benito-Herrera-Director-Marketing-2026.pdf" download aria-label="Descargar hoja de vida de Leandro Benito Herrera en PDF">Descargar hoja de vida (PDF)</a>
