@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portafolio-leandro-bh.vercel.app/sitemap.xml
